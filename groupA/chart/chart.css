@@ -1,0 +1,19 @@
+
+#chartContainer {
+  position: relative;
+  padding-left: 750px;
+  bottom: 350px;}
+
+#myChart {
+  width: 100%; /* Adjust the width as needed */
+  max-width: 600px;
+  margin: 0 auto; /* Center the chart horizontally */
+  cursor: pointer; /* Set the cursor style to pointer */
+
+}
+
+#resetButton {
+position: relative;
+left: 700px;
+bottom: 20px;
+}
