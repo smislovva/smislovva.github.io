@@ -1,0 +1,63 @@
+#sliderContainer {
+    position: relative;
+    width: 80%; /* Same as the slider */
+    text-align: center;
+    margin:0 auto;
+}
+
+.sliderMarks {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    pointer-events: none;
+}
+
+.sliderMarks span {
+    position: absolute;
+    pointer-events: none;
+    
+}
+
+
+#mapContainer {
+    position: absolute;
+    padding-left: 900px;
+    margin: auto;
+    top: -200px;
+}
+
+#australiaMap {
+    width: 80%; /* Adjust this percentage to make the map smaller */
+    height: auto;
+    transition: opacity 0.3s ease-in-out;
+}
+
+
+#yearDisplay {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+    padding: 5px;
+}
+
+.land {
+    fill: #000;
+    stroke: #fff;
+    stroke-width: 1px;
+    transition: fill 0.3s ease-in-out;
+}
+
+.land.reclaimed {
+    fill: #000; /* Change to the color you want for reclaimed land */
+}
+
+#yearSlider {
+    position: absolute;
+    /* right: 60px;
+    top: 120px; */
+    width: 50%; /* Adjust this to your preference */
+    color: #fff;
+}
