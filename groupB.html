@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Austrālijas vēsture</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="groupB.js" defer></script>
+
+    <link rel="stylesheet" href="groupB.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Preload Fonts -->
+    <link rel="preload" href="https://pave.ai/assets/fonts/HelveticaNowMicro-Regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="https://pave.ai/assets/fonts/HelveticaNowText-Regular.woff2" as="font" type="font/woff2" crossorigin>
+</head>
+<body>
+
+    <div class="video-container">
+        <ul class="navbar">
+            <a class="nav-link nav-link-ltr" href="#home">Sākums</a>
+            <a class="nav-link nav-link-ltr" href="#pirms-ieropiesu-ierasanas">Pirms eiropiešu ierašanās</a>
+            <a class="nav-link nav-link-ltr" href="#australijas-kolonizacija">Austrālijas kolonizācija</a>
+            <a class="nav-link nav-link-ltr" href="#pirmas-kolonijas">Pirmās kolonijas un to dibinātāji</a>
+            <a class="nav-link nav-link-ltr" href="#Federācija">Federācija un neatkarība</a>
+            <a class="nav-link nav-link-ltr" href="#Musdienu">Mūsdienu Austrālija</a>
+        </ul>
+        <video>
+            <source src="materials/video section1.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <div id="home" class="content">
+            <h2 class="title1">Austrālijas vēsture</h2>
+            <p class="subt1">Šajā vietnē jūs uzzināsiet īsu Austrālijas<br> vēsturi no aborigēnu laikiem līdz mūsdienām</p>
+        </div>
+    </div>
+    <div id="pirms-ieropiesu-ierasanas" class="before-europe">
+        <div class="content2">
+            <h2 class="title2">Pirms eiropiešu ierašanās</h2>
+        </div>
+
+        <img src="materials/hunt.jpg" alt="Hunt" class="hunt">
+
+
+        <div class="content21">
+        <p class="subt21">Pirms eiropiešu ierašanās Austrālijā aborigēniem, kuri kontinentā dzīvoja vairāk nekā 60 tūkstošus gadu, bija sava unikāla kultūra, tradīcijas un attīstīta pārvaldības sistēma.</p>
+        </div>
+        <div class="content21" id="interactive-text">
+            <p class="subt21">Viņu dzīvesveids bija harmoniski saistīts ar dabu: <span class="highlight-yellow">medības, augļu vākšana un makšķerēšana</span> bija viņu ikdienas neatņemama sastāvdaļa.</p>
+        </div>
+
+        <div class="content21" id="interactive-text">
+            <p class="subt21">Austrāliešu aborigēni ir saskārušies ar Eiropas kolonizācijas traģiskajām sekām, tostarp <span class="highlight-yellow">iedzīvotāju skaita samazināšanos, tradicionālo zemju un kultūras vērtību</span> zaudēšanu, kā arī diskrimināciju un sociālo atstumtību.</p>
+        </div>
+
+
+    </div>
+    <br>
+    
+      <div id="australijas-kolonizacija" class="aus-colonization">
+
+        <div class="content3">
+            <h2 class="title3">Austrālijas kolonizācija</h2>
+            <p class="subt3">Austrālijas kolonizācija sākās <span class="highlight">ar pirmo eiropiešu ierašanos kontinentā 1788. gadā</span></p>
+            <div class="europiesi-container">
+            <img class="europiesi" src="materials/1788.jpg" alt="1788.gads">
+ 
+            </div>
+        </div>
+        
+        <div class="content33">
+            <p class="subt3">1770. gadā kapteinis <span class="highlight">Džeimss Kuks</span> atklāj Austrālijas austrumu krastu un pieprasīja to Lielbritānijai.</p>
+            <img class="europiesi" src="materials/james.jpg" alt="James Cook">
+
+        </div>
+      </div>
+
+    <div id="pirmas-kolonijas" class="first-colonies">
+
+        <div class="content33">
+            <h2 class="title4">Pirmās kolonijas un to dibinātāji</h2>
+        </div>
+
+        <img id="myImg" class="artur" src="materials/artur.jpg" alt="Filips Arturs">
+
+        <!-- The Modal of image artur-->
+        <div id="myModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img01">
+            <div id="caption"></div>
+        </div>
+
+        <p class="subt4">Pirmā kolonija bija Jaundienvidvelsa,<br> kuru dibināja kapteinis <span class="highlight-yellow">Arturs Filips.</span></p>
+        <p class="subt4">
+            Kolonisti centās izmantot Austrālijas bagātos resursus, piemēram,<br>
+            <span class="highlight-yellow">vilnu, zeltu un ogles</span> savai ekonomiskajai attīstībai.
+        </p>
+    </div>
+        <div class="image-row">
+            <div class="image-container" >
+                <div class="image-card">
+                    <div class="image">
+                        <img src="materials/vilna (1).png" alt="Image 1">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="image-container">
+                <div class="image-card">
+                    <div class="image">
+                        <img src="materials/zelts.png" alt="Image 2">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="image-container">
+                <div class="image-card">
+                    <div class="image">
+                        <img src="materials/ogles.png" alt="Image 3">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+
+        <div id="Federācija" class="federation">
+            <div class="titlef-container">
+                <h2 class="titlef">Federācija un neatkarība</h2>
+            </div>
+            <div class="subtf-container">
+                <p class="subtf">19. gadsimta beigās Austrālijā radās ideja par koloniju federācijas izveidi. Austrālijas neatkarību Lielbritānija formāli atzina tikai 1942. gadā, kad Austrālijas karaspēks piedalījās Otrajā pasaules karā Antihitlera koalīcijas pusē. 1947. gadā Austrālija kļuva par Britu Nāciju Savienības dibinātāju.</p>
+            </div>
+            <div class="subtf1-container">
+                <p class="subtf">Koloniju apvienošanas kustība sākās 19. gadsimta vidū, un to sauca par <span class="highlight">"federālismu".</span>Šīs kustības pārstāvji iestājās par koloniju apvienošanu vienā valstī ar centralizētu valdību un kopēju likumdošanu.</p>
+            </div>
+            <div class="subtf2-container">
+                <p class="subtf">Viena no ievērojamākajām federālisma figūrām bija sabiedriskais darbinieks un politiķis <span class="highlight">Henrijs Pārkss</span>. Austrālijas galīgā neatkarība tika pasludināta 1986. gada 3. martā.</p>
+            </div>
+            <div class="img-europiesi">
+                <img class="europiesi1" src="materials/img (1).png" alt="Federation Image 1">
+            </div>
+            <div class="img-europiesi1">
+                <img class="europiesi1" src="materials/img1 (1).png" alt="Federation Image 2">
+            </div>
+            <div class="img-europiesi2">
+                <img class="europiesi1" src="materials/img2 (1).png" alt="Federation Image 3">
+            </div>
+        </div>
+        
+
+    <div id="Musdienu" class="musdienu">
+        <div class="content2">
+            <h2 class="title2">Mūsdienu Austrālija</h2>
+            <p class="subt2">Mūsdienu Austrālija ir augsti attīstīta valsts dienvidu puslodē,<br> kas ir viena no līderēm reģiona ekonomiskajā, kultūras un<br> politiskajā jomā
+                Mūsdienās Austrālija ir viena no pasaules<br> pārtikušākajām ekonomikām un ir daudzu starptautisku<br> organizāciju, piemēram, ANO, Starptautiskā Valūtas<br> fonda un Pasaules Tirdzniecības organizācijas locekle. </p>
+        </div>
+        <div class="picture">
+            <img src="materials/aus.jpg" alt="Avatar" class="aus">
+            <div class="overlay"><b>Austrālijas daba</b></div>
+          </div>
+          <div class="picture">
+            <img src="materials/aus4.jpg" alt="Avatar" class="aus">
+            <div class="overlay"><b>Austrālijas kultūra</b></div>
+          </div>
+          <div class="picture">
+            <img src="materials/aus1.jpg" alt="Avatar" class="aus">
+            <div class="overlay"><b>Austrālijas daba</b></div>
+          </div>
+          <p class="austext">Austrālija ir pazīstama ar savu <span class="highlight-yellow">kultūru un dabu</span>, kas piesaista tūristus no visas pasaules.</p>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Your Website. All rights reserved.</p>
+        <div class="image-source">Video avots: https://www.youtube.com/watch?v=TC7D5T_m_-k&t=105s&ab_channel=NFSAFilms</div>
+        <div class="image-source">Kartes avots: https://brilliantmaps.com/indigenous-australia/</div>
+        <div class="image-source">Medības avots: https://www.meisterdrucke.ie/fine-art-prints/John-Heaviside-Clark/149464/Hunting-the-Kangaroo%2C-aborigines-in-New-South-Wales-engraved-by-Matthew-Dubourg-%28fl.1813-1820%29-1813-.html</div>
+        <div class="image-source">Kolonizācijas avots: https://www.britannica.com/biography/Arthur-Phillip</div>
+
+    </footer>
+    
+    <!-- <div id="countdownTimer" style="font-size:20px; color: red; display: none;"></div> -->
+
+
+    <div id="popup-container" class="popup-container">
+        <div class="popup-content">
+            <h1>Uzdevums:</h1>
+            <p>Jums būs 5 minūtes, lai izpētītu tīmekļa vietnē esošo materiālu.</p>
+            <p>Tiklīdz noklikšķināsiet uz pogas Sākt, taimeris sāks atpakaļskaitīšanu.</p>
+            <p>Kad laiks būs beidzies, jūs tiksit novirzīts uz lapu ar materiāla pārbaudes jautājumiem.</p>
+            <button id="start-button" >Sākt</button>
+        </div>
+    </div>
+
+</body>
+</html>
