@@ -1,0 +1,428 @@
+* {
+    box-sizing:border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+
+  }
+
+  
+  
+
+  .hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('pictures/heroimg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px; /* Adjust the height as needed */
+    position: relative;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+  }
+
+  .hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+  }
+  .hero-text h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  .hero-text p {
+    font-size: 20px;
+  }
+
+  .button1 {
+    background-color: #e7e7e7;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+}
+
+.button1:hover{
+    cursor: pointer;
+    background-color: #bbbbbb;
+
+}
+
+  
+  .column-66 {
+    float: left;
+    width: 50%;
+    padding: 5% 5% 0% 5%;
+  }
+  
+  .column-33 {
+    float: left;
+    width: 50%;
+    padding: 0px;
+  }
+  
+  .large-font {
+    font-size: 40px;
+  }
+  
+  .xlarge-font {
+    font-size: 50px
+  }
+
+  .xlarge-font1{
+    font-size: 45px;
+
+  }
+
+  .large-font11{
+    font-size: 35px;
+
+  }
+  
+  .button {
+    border: none;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #38598b;
+  }
+
+  .button:hover {
+    background-color: #2a4165;
+  }
+
+  .buttonR {
+    border: none;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #5c5470;
+  }
+
+  .buttonR:hover {
+    background-color: #3d3848;
+  }
+  
+  img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .column-66,
+    .column-33 {
+      width: 100%;
+      text-align: center;
+    }
+    img {
+      margin: auto;
+    }
+  }
+
+      /* Style for the section */
+      .reviews-section {
+        padding: 50px 0;
+        background-color: #f9f9f9;
+      }
+  
+      /* Style for the container */
+      .container {
+        display: flex;
+        justify-content: center;
+        text-align: justify;
+        flex-wrap: wrap;
+        padding: 0px;
+      }
+  
+      /* Style for each review card */
+      .review-card {
+        width: 300px;
+        background-color: #fff;
+        padding: 20px;
+        margin: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+      }
+  
+      /* Style for hover effect */
+      .review-card:hover {
+        transform: translateY(-5px);
+      }
+  
+      /* Style for the user's name */
+      .user-name {
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+  
+      /* Style for the review text */
+      .review-text {
+        font-style: italic;
+      }
+
+      /* contact form */
+      /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #e7e7e7;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #555555;
+    color: white;
+    cursor: pointer;
+  }
+
+  .button44 {
+    text-align: center;
+  }
+  
+  .button41 {
+    background-color: #555555;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+}
+
+.button42{
+    background-color: #e7e7e7;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+}
+
+.button41:hover{
+    cursor: pointer;
+    background-color: #333333;
+
+}
+
+.button42:hover{
+    cursor: pointer;
+    background-color: #b9b9b9;
+
+
+}
+
+.large-font1 {
+    font-size: 48px;
+    text-align: center;
+  }
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+
+  /* Styling for the links */
+  footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  
+
+
+/*pop up*/
+.popup-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999; /* Ensure it's on top of other content */
+}
+
+.popup-content {
+  background-color: rgb(198, 198, 198);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+
+.popup-container1 {
+  display: none;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1050;
+  outline: 0;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+
+}
+
+#feedbackPopup {
+  display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(87, 87, 87);
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-content1 {
+  background: #dcdcdc;
+  width: 80%;
+  height: auto;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  justify-content: center;
+
+}
+
+
+
+
+.sakt{
+  border-radius: 12px;
+  background-color: #f4f4f4;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+
+.copy {
+  border-radius: 12px;
+  background-color: #f4f4f4;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+
+
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 140px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -75px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+      /* Basic styling for the container */
+.container1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  /* Basic styling for the grid items */
+  .grid-item {
+    background-color: #ccc;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: justify;
+  }
+  
+  /* Image styling */
+  .grid-item img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+
+
